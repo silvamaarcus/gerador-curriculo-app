@@ -13,7 +13,6 @@ body {
 
 .container {
   padding: 16px;
-  border: 1px solid red;
 }
 
 .flex {
@@ -725,14 +724,7 @@ label {
   color: #15171A;
 }
 
-.experiencia {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column: 1/2;
-  gap: 24px;
-}
-
-.btn-habilidade {
+.btn-add {
   font: 800 18px "Montserrat", sans-serif;
   padding: 8px 12px;
   border-radius: 4px;
@@ -740,8 +732,40 @@ label {
   color: #4DDCFF;
   cursor: pointer;
 }
-.btn-habilidade:hover {
+.btn-add:hover {
   background: #15171A;
+}
+
+.btn-remove {
+  font: 800 18px "Montserrat", sans-serif;
+  padding: 8px 12px;
+  border-radius: 32px;
+  background: #0D0E10;
+  color: #4DDCFF;
+  cursor: pointer;
+}
+.btn-remove:hover {
+  background: #15171A;
+}
+
+.experiencia {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.experiencia-salvas {
+  padding: 36px 16px;
+}
+
+.experiencia-salvas li {
+  list-style: none;
+  background: rgba(255, 255, 255, 0.5);
+  color: #0D0E10;
+  margin-bottom: 32px;
+  padding: 16px;
+  border-radius: 4px;
+  font: 500 16px "Montserrat", sans-serif;
 }
 
 .lista-habilidade {

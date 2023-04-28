@@ -35,3 +35,29 @@ label {
   padding: 12px 0;
   color: $black-light;
 }
+
+.btn-add {
+  font: 800 18px "Montserrat", sans-serif;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background: $black-normal;
+  color: $blue-light;
+  cursor: pointer;
+
+  &:hover {
+    background: $black-light;
+  }
+}
+
+.btn-remove {
+  font: 800 18px "Montserrat", sans-serif;
+  padding: 8px 12px;
+  border-radius: 32px;
+  background: $black-normal;
+  color: $blue-light;
+  cursor: pointer;
+
+  &:hover {
+    background: $black-light;
+  }
+}

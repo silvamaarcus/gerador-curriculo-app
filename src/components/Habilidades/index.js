@@ -32,7 +32,7 @@ const Habilidades = () => {
         />
         <button
           type="button"
-          className="btn-habilidade"
+          className="btn-add"
           onClick={AdicionarHabilidade}
         >
           Adicionar

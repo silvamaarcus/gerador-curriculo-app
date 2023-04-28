@@ -1,0 +1,28 @@
+.btn-habilidade {
+  font: 800 18px "Montserrat", sans-serif;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background: $black-normal;
+  color: $blue-light;
+  cursor: pointer;
+
+  &:hover {
+    background: $black-light;
+  }
+}
+
+.lista-habilidade {
+  margin-left: 32px;
+  margin-bottom: 16px;
+  gap: 12px;
+}
+
+.lista-habilidade li {
+  font: 800 18px "Montserrat", sans-serif;
+}
+
+.input-habilidade {
+  width: 570px;
+  margin-right: 8px;
+  margin-bottom: 16px;
+}

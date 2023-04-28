@@ -1,0 +1,37 @@
+main {
+  max-width: 1200px;
+  margin: 64px auto;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+main h3 {
+  font-weight: 800;
+  margin-bottom: 24px;
+  color: $black-light;
+}
+
+input,
+textarea {
+  font: 400 16px "Montserrat", sans-serif;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  background: $white-dark;
+  color: $black-normal;
+
+  &:focus {
+    outline: none;
+    border: 3px solid $blue-dark;
+  }
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+.input-padrao {
+  font: 800 18px "Montserrat", sans-serif;
+  padding: 12px 0;
+  color: $black-light;
+}

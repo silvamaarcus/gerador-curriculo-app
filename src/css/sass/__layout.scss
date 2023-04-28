@@ -1,0 +1,31 @@
+@import "./_colors";
+
+body {
+  background: linear-gradient(to right, #1a2980, #26d0ce);
+  padding: 0 16px;
+}
+
+.container {
+  padding: 16px;
+  border: 1px solid red;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-meio-meio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}

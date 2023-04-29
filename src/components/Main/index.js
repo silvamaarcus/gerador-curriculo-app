@@ -1,5 +1,6 @@
-import Experiencia from "../Experiencia";
 import Dados from "../Dados";
+import Experiencia from "../Experiencia";
+import Formacao from "../Formacao";
 import Habilidades from "../Habilidades";
 
 const Main = () => {
@@ -7,6 +8,7 @@ const Main = () => {
     <main>
       <Dados />
       <Experiencia />
+      <Formacao />
       <Habilidades />
     </main>
   );

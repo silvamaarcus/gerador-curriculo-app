@@ -1,4 +1,5 @@
 import { useState } from "react";
+import api from "../../services/api";
 
 const Experiencia = () => {
   const [dadosFormulario, setDadosFormulario] = useState({});
@@ -12,23 +13,31 @@ const Experiencia = () => {
 
   function handleSubmit(e) {
     e.preventDefault();
-    // Criando um arquivo JSON com as informações obtidas.
-    // const jsonString = JSON.stringify(dadosFormulario);
-
-    // Convertendo em JSON, para manipula-lo.
-    // const jsonObjeto = JSON.parse(jsonString);
-    // console.log(jsonObjeto);
 
     const novaExperiencia = {
       cargo: dadosFormulario.cargo,
       nomeEmpresa: dadosFormulario.nomeEmpresa,
     };
 
-    // adicionando nova experiência ao array de experiências
+    // Adicionando nova experiência ao array de experiências
     setExperiencias([...experiencias, novaExperiencia]);
 
     // limpando os dados do formulário após a submissão
     setDadosFormulario({});
+
+    // Criando um arquivo JSON com as informações obtidas.
+    const jsonString = JSON.stringify(dadosFormulario);
+    // Convertendo em JSON, para manipula-lo.
+    const jsonObjeto = JSON.parse(jsonString);
+    // console.log(jsonObjeto);
+    api
+      .post("/exp", jsonObjeto)
+      .then((response) => {
+        console.log(response);
+      })
+      .catch((error) => {
+        console.log(error);
+      });    
   }
 
   function handleDelete(index) {
@@ -111,8 +120,16 @@ const Experiencia = () => {
           <ul>
             {experiencias.map((experiencia, index) => (
               <li key={index} className="flex-space-between">
-                <span><strong>{experiencia.cargo}</strong> | {experiencia.nomeEmpresa}</span>
-                <button className="btn-remove" onClick={() => handleDelete(index)}>X</button>
+                <span>
+                  <strong>{experiencia.cargo}</strong> |{" "}
+                  {experiencia.nomeEmpresa}
+                </span>
+                <button
+                  className="btn-remove"
+                  onClick={() => handleDelete(index)}
+                >
+                  X
+                </button>
               </li>
             ))}
           </ul>

@@ -79,7 +79,7 @@ const Experiencia = () => {
             <div className="grid input-padrao">
               <label htmlFor="mesI">Início</label>
               <input
-                type="date"
+                type="month"
                 id="dataInicio"
                 name="dataInicio"
                 value={dadosFormulario.dataInicio || ""}
@@ -89,7 +89,7 @@ const Experiencia = () => {
             <div className="grid input-padrao">
               <label htmlFor="mesF">Final</label>
               <input
-                type="date"
+                type="month"
                 id="dataSaida"
                 name="dataSaida"
                 value={dadosFormulario.dataSaida || ""}

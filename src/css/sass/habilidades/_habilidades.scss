@@ -13,3 +13,9 @@
   margin-right: 8px;
   margin-bottom: 16px;
 }
+
+@media (max-width: 650px) {
+  .input-habilidade {
+    max-width: 370px;
+  }
+}

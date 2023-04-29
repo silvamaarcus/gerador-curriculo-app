@@ -691,6 +691,7 @@ main {
   margin: 64px auto;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
+  overflow-x: hidden;
 }
 
 main h3 {
@@ -768,6 +769,27 @@ label {
   font: 500 16px "Montserrat", sans-serif;
 }
 
+.formacao {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  align-items: center;
+}
+
+.formacao-salvas {
+  padding: 36px 16px;
+}
+
+.formacao-salvas li {
+  list-style: none;
+  background: rgba(255, 255, 255, 0.5);
+  color: #0D0E10;
+  margin-bottom: 32px;
+  padding: 4px;
+  border-radius: 4px;
+  font: 500 16px "Montserrat", sans-serif;
+}
+
 .lista-habilidade {
   margin-left: 32px;
   margin-bottom: 16px;
@@ -782,4 +804,10 @@ label {
   width: 570px;
   margin-right: 8px;
   margin-bottom: 16px;
+}
+
+@media (max-width: 650px) {
+  .input-habilidade {
+    max-width: 370px;
+  }
 }/*# sourceMappingURL=style.css.map */

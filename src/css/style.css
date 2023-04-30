@@ -6,6 +6,10 @@
   border: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background: linear-gradient(to right, #1a2980, #26d0ce);
   padding: 0 16px;
@@ -686,6 +690,10 @@ p {
   font-size: 16px;
 }
 
+body {
+  margin-bottom: 64px;
+}
+
 main {
   max-width: 1200px;
   margin: 64px auto;
@@ -810,4 +818,103 @@ label {
   .input-habilidade {
     max-width: 370px;
   }
+}
+.pagina {
+  margin: 64px 32px;
+  background: #F5F7F7;
+}
+
+.header,
+.main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 64px;
+}
+
+.header-dir,
+.main-dir {
+  display: flex;
+  justify-content: center;
+}
+
+.header li {
+  font: 500 12px "Montserrat", sans-serif;
+  list-style: none;
+  margin-bottom: 6px;
+}
+
+.main-esq,
+.main-dir {
+  margin-top: 32px;
+  justify-content: flex-start;
+}
+
+.main-esq-exp {
+  margin-bottom: 32px;
+}
+
+.main span {
+  display: flex;
+  gap: 4px;
+}
+
+.exp-resumo {
+  margin-top: 12px;
+}
+
+.main-dir {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-dir ul {
+  margin-bottom: 32px;
+}
+
+.main-dir li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.habilidades ul {
+  padding-left: 24px;
+}
+
+.pagina h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.pagina h1 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.pagina h2 {
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.pagina h3 {
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.pagina h4 {
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  color: #15AED4;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */

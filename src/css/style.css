@@ -831,20 +831,21 @@ label {
   gap: 64px;
 }
 
+.header {
+  align-items: center;
+}
+
+.header-esq {
+  width: 100%;
+}
+
 .header-dir,
 .main-dir {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
-.header li {
-  font: 500 12px "Montserrat", sans-serif;
-  list-style: none;
-  margin-bottom: 6px;
-}
-
-.main-esq,
-.main-dir {
+.main {
   margin-top: 32px;
   justify-content: flex-start;
 }
@@ -860,20 +861,20 @@ label {
 
 .exp-resumo {
   margin-top: 12px;
-}
-
-.main-dir {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
 }
 
 .main-dir ul {
   margin-bottom: 32px;
 }
 
+.header li,
 .main-dir li {
   list-style: none;
   margin-bottom: 12px;
+  font: 500 10px "Montserrat", sans-serif;
+  list-style: none;
+  margin-bottom: 10px;
 }
 
 .habilidades ul {

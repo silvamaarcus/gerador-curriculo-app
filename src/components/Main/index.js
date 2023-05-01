@@ -13,7 +13,7 @@ const Main = () => {
         <Formacao />
         <Habilidades />
       </main>
-      <button>
+      <button className="ml-5">
         <Link to="curriculo" className="btn-add">
           GERAR CURRICULO
         </Link>

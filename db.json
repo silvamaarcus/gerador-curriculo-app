@@ -1,6 +1,81 @@
 {
-  "dados": [],
-  "exp": [],
-  "skills": [],
-  "graduacao": []
+  "dados": [
+    {
+      "nome": "Marcus Silva",
+      "celular": "+55 31 997003074",
+      "email": "devsilvamarcus@gmail.com",
+      "linkedin": "linkedin.com/in/silvamaarcus",
+      "outros": "github.com/silvamaarcus",
+      "sobre": "Desenvolvedor front-end com habilidades em JavaScript, HTML e CSS. Tenho\nexperiência em manipulação de APIs e sou capaz de criar páginas web responsivas\nque funcionam em vários dispositivos. Sempre comprometido em fornecer soluções\ncriativas e eficazes. Busco aprender novas tecnologias e aprimorar minhas\nhabilidades para garantir a entrega de projetos.",
+      "profissao": "Desenvolvedor Front-End",
+      "id": 1
+    }
+  ],
+  "exp": [
+    {
+      "cargo": "Desenvolvedor Front-End",
+      "nomeEmpresa": "Freelancer",
+      "dataInicio": "2022-12",
+      "dataSaida": "2023-05",
+      "resumo": "Atuo criando interfaces gráficas dinâmicas e atraentes usando CSS e SASS.\nMeus projetos apresentam funcionalidades interessantes em JavaScript,\ndemonstrando minha habilidade técnica e criatividade. Valorizo o\nconhecimento básico de UI e UX design, o que me ajuda a criar interfaces\nintuitivas e agradáveis aos usuários, atendendo a vários dispositivos.",
+      "id": 1
+    },
+    {
+      "resumo": "Execução de obras civis para instalação de painéis solares. Desde preparar o\nterreno, como também o acompanhamento da instalação das estruturas de\nsuporte que conectam os painéis à rede elétrica.",
+      "nomeEmpresa": "Maya Energy",
+      "cargo": "Analista de Engenharia",
+      "dataInicio": "2022-07",
+      "dataSaida": "2022-12",
+      "id": 2
+    },
+    {
+      "cargo": "Engenheiro Civil",
+      "nomeEmpresa": "Autonomo",
+      "dataInicio": "2021-01",
+      "dataSaida": "2022-07",
+      "resumo": "Execução de vistorias e acompanhamento em serviços de reforma/reparo.\nLiderança de equipe, gerenciando contato com fornecedores, clientes e\nempreiteiros.",
+      "id": 3
+    }
+  ],
+  "skills": [
+    {
+      "habilidade": "Experiência em HTML, CSS e JavaScript.",
+      "id": 1
+    },
+    {
+      "habilidade": "Consumo em API, manipulação do JSON.",
+      "id": 2
+    },
+    {
+      "habilidade": "Familiaridade com React.",
+      "id": 3
+    },
+    {
+      "habilidade": "Conhecimento em pré-processadores CSS como SASS.",
+      "id": 4
+    },
+    {
+      "habilidade": "Capacidade de trabalhar com ferramentas como Git e Figma.",
+      "id": 5
+    },
+    {
+      "habilidade": "Compreensão das boas práticas de design responsivo.",
+      "id": 6
+    },
+    {
+      "habilidade": "Prototipação em guias de estilo com padrões de UX/UI Design.",
+      "id": 7
+    },
+    {
+      "habilidade": "Metodologia ágil Scrum.",
+      "id": 8
+    }
+  ],
+  "graduacao": [
+    {
+      "curso": "Análise e Des. Sistemas",
+      "nomeFaculdade": "Centro Universitario UNA",
+      "id": 1
+    }
+  ]
 }
